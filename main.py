@@ -44,8 +44,8 @@ class TokenScanner:
         return verified_wallets
 
 def main():
-    etherscan_api_key = "DVVQU1PHAEJUA9E39V4SKA7F25NTRMGQSZ"
-    ethplorer_api_key = "EK-pyu1H-XEfn7of-5JyhC"
+    etherscan_api_key = ""
+    ethplorer_api_key = ""
 
     scanner = TokenScanner(etherscan_api_key, ethplorer_api_key)
 
